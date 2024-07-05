@@ -86,7 +86,7 @@ export default function FormLogin() {
       {errorValidate && (
         <p className="text-red-500 text-sm py-1">Kode atau Nama Salah</p>
       )}
-      <div className="w-full">
+      <div className="w-full mt-3">
         <button
           type="submit"
           disabled={loadData}
