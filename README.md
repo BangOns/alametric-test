@@ -16,7 +16,7 @@
 - Hasil ujian (Rangking) dari ujian
 
 **Berikut data user yang dapat di akses** :
--  name: Roni,
+-  name: Syahroni,
     code: 1231AS
 
 -  name: Doni,
