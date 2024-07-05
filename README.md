@@ -30,6 +30,11 @@
 
 -  name: Fantri,
     code: TGF2W1
+
+**Flowchart Alametric** :
+
+
+
 ## Tech Stack
 
 **Library and Framework** : React Js, react-router-dom, Tailwind CSS 
