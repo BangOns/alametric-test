@@ -28,16 +28,16 @@ export default function Navbar() {
   }
   return (
     <>
-      <nav className="w-full font-alametric flex justify-between items-center px-4">
+      <nav className="w-full font-alametric flex justify-between items-center px-4 ">
         <Logo />
-        <div className="flex gap-5 items-end">
+        <div className="flex gap-5 items-center  z-30 sm:items-end">
           {GetUserById.points > 0 && (
             <>
               <Link
                 to={`/home/${id}`}
                 className={`text-lg font-poppins  ${
                   activeLocation === id ? "text-cyan-500" : "text-white"
-                } hover:text-cyan-500 cursor-pointer`}
+                } hover:text-cyan-500 max-sm:text-sm cursor-pointer`}
               >
                 Home
               </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
                 to={`/home/${id}/rank`}
                 className={`text-lg font-poppins  ${
                   activeLocation === "rank" ? "text-cyan-500" : "text-white"
-                } hover:text-cyan-500 cursor-pointer`}
+                } hover:text-cyan-500 cursor-pointer  max-sm:text-sm `}
               >
                 Rank
               </Link>
