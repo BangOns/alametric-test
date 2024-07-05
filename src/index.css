@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #6739ba;
+}
+.levels {
+  width: 65%;
+  height: 65%;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.trophy {
+  width: 65%;
+  height: 65%;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+@font-face {
+  font-family: "alametric";
+  src: url(assets/font/Boodle-Black-Regular.otf) format(opentype);
+}
+@font-face {
+  font-family: "inter";
+  src: url(assets/font/Inter-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: "inter-bold";
+  src: url(assets/font/Inter-Bold.ttf) format(truetype);
+}
+@font-face {
+  font-family: "poppins";
+  src: url(assets/font/Poppins-Regular.ttf) format(truetype);
+}
