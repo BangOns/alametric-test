@@ -33,6 +33,7 @@
 
 **Flowchart Alametric** :
 
+![flowchart-alametric](https://github.com/BangOns/alametric-test/assets/97930260/10a4b4ea-a82e-405e-868e-c0551a2bfe65)
 
 
 ## Tech Stack
